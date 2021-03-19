@@ -239,7 +239,6 @@ class Manager {
      * @param {Object} apiClient The ApiClient.
      */
     processCommand(cmd, apiClient) {
-        console.log('Syncplay cmd recieved', cmd);
         if (cmd === null) return;
 
         if (typeof cmd.When === 'string') {
